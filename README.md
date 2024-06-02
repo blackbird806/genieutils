@@ -65,9 +65,9 @@ cmake --build .
 
 This creates a `genieutils.dll` or `libgenieutils.so` file.
 
-To create a static library instead, use the `GENIEUTILS_STATIC_BUILD` flag:
+To create a static library instead, use the `-DGUTILS_STATIC=YES` flag:
 ```
-cmake .. -DGENIEUTILS_STATIC_BUILD=YES
+cmake .. -DGUTILS_STATIC=YES
 cmake --build .
 ```
 
